@@ -1,0 +1,15 @@
+<form>
+    <input type="text" name="qno" placeholder="Question number" value="{{questiondata.qno}}"><br><br>
+    <input type="text" name="qtext" placeholder="Enter the question" value="{{questiondata.qtext}}"><br><br>
+    <input type="text" name="answer" placeholder="Enter correct answer" value="{{questiondata.answer}}"><br><br>
+    <input type="text" name="op1" placeholder="Enter the first option" value="{{questiondata.op1}}"><br><br>
+    <input type="text" name="op2" placeholder="Enter the second option" value="{{questiondata.op2}}"><br><br>
+    <input type="text" name="op3" placeholder="Enter the third option" value="{{questiondata.op3}}"><br><br>
+    <input type="text" name="op4" placeholder="Enter the fourth option" value="{{questiondata.op4}}"><br><br>
+    <input type="text" name="subject" placeholder="Enter subject" value="{{questiondata.subject}}"><br><br>
+    <input type="submit" value="View" formaction="/examapp/viewquestion/">
+    <input type="submit" value="AddQuestion" formaction="/examapp/addquestion/">
+    <input type="submit" value="UpdateQuestion" formaction="/examapp/updatequestion/">
+    <input type="submit" value="DeleteQuestion" formaction="/examapp/deletequestion/ ">
+</form>
+<span>{{message}}</span>
